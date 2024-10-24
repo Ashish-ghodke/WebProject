@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about the benefits of karate and how it can improve your life.">
+    <link rel="stylesheet" href="styles.css">
+    <title>Karate Blog</title>
+    <style>
+        body {
+            background-color: #211e1e;
+            color: rgb(255, 255, 255);
+            font-family: Arial, sans-serif;
+        }
+        .blog-post {
+            padding: 20px;
+            animation: fadeIn 1s ease-in;
+        }
+        aside {
+            background-color: #333;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+            animation: slideIn 0.5s ease-in;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { transform: translateY(-20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="images/karate.png" alt="Karate Logo" style="height: 110px;"> 
+                <h1 class="association-name">Self Defence Karate Do Association</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="rules.html">Rules</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="photos.html">Photos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="blog-post">
+            <h1>Benefits of Karate</h1>
+            <img src="images/blog1.jpg" alt="Karate Practice" class="responsive-image">
+            <p>Karate is not just a martial art; it's a way of life. Here are some of the numerous benefits:</p>
+            <ul>
+                <li><strong>Improved Physical Fitness:</strong> Karate helps to build strength, endurance, flexibility, and overall fitness.</li>
+                <li><strong>Self-Defense Skills:</strong> Learning karate equips individuals with the skills to protect themselves in dangerous situations.</li>
+                <li><strong>Discipline and Focus:</strong> The practice of karate requires discipline and concentration, which can be applied in everyday life.</li>
+                <li><strong>Boosted Confidence:</strong> Mastering techniques and achieving belts enhances self-esteem and confidence.</li>
+                <li><strong>Stress Relief:</strong> Physical activity like karate is an excellent way to relieve stress and anxiety.</li>
+                <li><strong>Community and Camaraderie:</strong> Training in karate fosters friendships and a sense of belonging within the dojo.</li>
+            </ul>
+            <p>Whether you're a beginner or an advanced practitioner, the journey of karate brings numerous rewards that extend far beyond the dojo. Join us today and experience the benefits for yourself!</p>
+        </section>
+
+        <aside>
+            <h2>Additional Resources</h2>
+            <p>Check out these resources to learn more about karate:</p>
+            <ul>
+                <li><a href="https://thekarateblog.com/what-is-dojo-etiquette/">Karate World</a></li>
+                <li><a href="https://www.karate.org" target="_blank">International Karate Organization</a></li>
+                <li><a href="https://www.karatevideos.com" target="_blank">Karate Training Videos</a></li>
+            </ul>
+            <img src="images/blog2.jpg" alt="Karate Training" class="responsive-image">
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Karate Class. All Rights Reserved. <br>auther: Ashish Sanjay Ghodke</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Us - Karate Class">
+    <link rel="stylesheet" href="styles.css"> <!-- Linking to external CSS file -->
+    <title>Karate Class - Contact</title>
+    <style>
+        /* Adding animation and basic styles */
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        h1, h2, p {
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        /* Styling for contact info and animations */
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f8f8f8;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .contact-info h2, .contact-info p {
+            margin: 10px 0;
+        }
+
+        .contact-info p {
+            font-size: 18px;
+        }
+
+        .contact-info a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="images/karate.png" alt="Karate Logo" style="height: 110px;"> 
+                <h1 class="association-name">Self Defence Karate Do Association</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="rules.html">Rules</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="photos.html">Photos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h2>Get in Touch</h2>
+        <p>If you have any questions or need further information about our Karate classes, feel free to reach out to us by filling out the form below.</p>
+
+        <form action="/submit_form" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="1" required>
+
+            <label for="contact">Contact Number:</label>
+            <input type="tel" id="contact" name="contact" pattern="[0-9]{10}" required placeholder="Enter 10-digit phone number">
+
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <div class="contactinfo">
+            <h2>Our Class Information</h2>
+            <p>Location: <strong>Swami Vivekanand School, Self Defense Karate Dojo, Chh. Sambhaji Nagar, Garkheda Parisar</strong></p>
+            <p>Phone: <a href="tel:+918855008483" id="call-number">+91 8855008483</a></p>
+            <p>Email: <a href="mailto:selfdefenceacadmy@gmail.com">selfdefenceacadmy@gmail.com</a></p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Karate Class. All Rights Reserved.</p>
+        <p>This webpage is developed by Ashish Sanjay Ghodke. &copy; 2024</p>
+    </footer>
+
+</body>
+</html>

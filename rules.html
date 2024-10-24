@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rules and regulations for our Karate class.">
+    <link rel="stylesheet" href="styles.css">
+    <title>Karate Class Rules</title>
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: white;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            animation: fadeIn 1s ease-in;
+        }
+        .rules-list {
+            animation: slideIn 0.5s ease-in;
+            margin: 20px 0;
+        }
+        li {
+            margin: 10px 0;
+            line-height: 1.5;
+        }
+        .important {
+            color: #ffcc00; /* Highlight color */
+            font-weight: bold;
+        }
+        .belt-exam {
+            margin: 40px 0;
+            padding: 20px;
+            border: 2px solid #ffcc00;
+            border-radius: 5px;
+        }
+        .belt-list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+        .belt {
+            width: 100px;
+            text-align: center;
+            margin: 10px;
+        }
+        .belt img {
+            width: 100%;
+            border: 2px solid #fff;
+            border-radius: 5px;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { transform: translateY(-20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="images/karate.png" alt="Karate Logo" style="height: 110px;"> 
+                <h1 class="association-name">Self Defence Karate Do Association</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="rules.html">Rules</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="photos.html">Photos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+</head>
+<body>
+    
+
+    <main>
+        <h1>Rules and Regulations</h1>
+        <div class="rules-list">
+            <ul>
+                <li><span class="important">Be Punctual:</span> Arrive on time for classes to ensure you don’t miss any important instructions.</li>
+                <li><span class="important">Respect Your Instructors:</span> Always listen to your instructors and follow their guidance.</li>
+                <li><span class="important">Wear Proper Attire:</span> Ensure you are dressed in the appropriate karate uniform (gi) during training sessions.</li>
+                <li><span class="important">Maintain Cleanliness:</span> Keep the dojo clean and tidy. Respect the training space.</li>
+                <li><span class="important">Practice Safety:</span> Always prioritize safety during practice. Use protective gear when necessary.</li>
+                <li><span class="important">Show Sportsmanship:</span> Display good sportsmanship during competitions and training. Support your peers.</li>
+                <li><span class="important">No Distractions:</span> Turn off phones and other distractions during training sessions.</li>
+                <li><span class="important">Commit to Training:</span> Attend classes regularly and practice at home to improve your skills.</li>
+                <li><span class="important">Have Fun:</span> Enjoy the process of learning and growing in your martial arts journey!</li>
+            </ul>
+        </div>
+
+        <div class="belt-exam">
+            <h2>Belt Exam Rules and System</h2>
+            <p>We conduct belt exams every 3 months, overseen by external coaches or masters who hold significant positions in karate. There are 9 belts in karate, following this ranking:</p>
+            <div class="belt-list">
+                <div class="belt">
+                    <img src="images/white.png" alt="White Belt">
+                    <p>White</p>
+                </div>
+                <div class="belt">
+                    <img src="images/yellow.png" alt="Yellow Belt">
+                    <p>Yellow</p>
+                </div>
+                <div class="belt">
+                    <img src="images/orange.png" alt="Orange Belt">
+                    <p>Orange</p>
+                </div>
+                <div class="belt">
+                    <img src="images/green.png" alt="Green Belt">
+                    <p>Green</p>
+                </div>
+                <div class="belt">
+                    <img src="images/blue.png" alt="Blue Belt">
+                    <p>Blue</p>
+                </div>
+                <div class="belt">
+                    <img src="images/purple.png" alt="Purple Belt">
+                    <p>Purple</p>
+                </div>
+                <div class="belt">
+                    <img src="images/brown.png" alt="Brown Belt 3rd">
+                    <p>Brown 3rd</p>
+                </div>
+                <div class="belt">
+                    <img src="images/brown.png" alt="Brown Belt 2nd">
+                    <p>Brown 2nd</p>
+                </div>
+                <div class="belt">
+                    <img src="images/brown.png" alt="Brown Belt 1st">
+                    <p>Brown 1st</p>
+                </div>
+                <div class="belt">
+                    <img src="images/black.png" alt="Black Belt">
+                    <p>Black Belt</p>
+                </div>
+            </div>
+            <p>If you pass the exam, you will receive your belt and certificate on the same day. However, if you fail, you must retake the exam with a maximum of 3 attempts.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Karate Class. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
